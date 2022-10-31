@@ -1,0 +1,98 @@
+@import url('../styles/layout.css');
+
+body{
+    width: 100%;
+}
+
+/* STYLING NAV */
+nav{
+    background: orangered;
+    height: 4em;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+}
+
+/*styling everything inside of the nav*/
+nav ul li{
+    width: 100%;
+    padding: 1em;
+}
+
+/*styling the text itself*/
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* STYLING HEADER */
+header img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*STYLING ASIDE*/
+#aside-option-3{
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+#aside-option-3 h2{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 1.2em;
+    background-color: #333;
+}
+
+#aside-option-3 p{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    line-height: 1.3em;
+}
+
+#aside-option-3 cite{
+    padding-bottom: 2em;
+    color: white;
+    background-color: #333;
+    padding: 1.2em;
+    text-align: center;
+}
+
+#aside-option-3 cite a {
+    text-decoration: none;
+    color: white;
+}
+/* STYLING SECTIONS */
+.content{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+}
+
+.content main {
+    display: flex;
+}
+
+.content section{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: .4em;
+    gap: 1em;
+    padding: 1em;
+    margin: .5em;
+}
+
+.price{
+    background: #333;
+    padding: 1em;
+    color: white;
+}
